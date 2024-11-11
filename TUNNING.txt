@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <style>
+        /* Estilos para el diseño de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Barra superior */
+        .top-bar {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            padding: 20px;
+            margin-top: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Sección de enlaces */
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .links a {
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Logo principal */
+        .logo-center {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-center img {
+            max-width: 100px;
+        }
+
+        /* Logo en la derecha */
+        .logo-right img {
+            max-width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra superior -->
+    <div class="top-bar">
+        <div>Sección 1</div>
+        <div>Sección 2</div>
+        <div>Sección 3</div>
+    </div>
+
+    <!-- Logo principal centrado -->
+    <div class="logo-center">
+        <img src="logo_principal.png" alt="Logo de la Empresa">
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Enlaces de la izquierda -->
+        <div class="links">
+            <a href="#enlace1">Personalizar 1</a>
+            <a href="#enlace2">Personalizar 2</a>
+            <a href="#enlace3">Personalizar 3</a>
+            <a href="#enlace4">Personalizar 4</a>
+        </div>
+
+        <!-- Logo de la derecha -->
+        <div class="logo-right">
+            <img src="logo_derecha.png" alt="Logo de la Empresa">
+        </div>
+    </div>
+</body>
+</html>
